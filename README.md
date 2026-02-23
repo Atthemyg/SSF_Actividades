@@ -7,15 +7,15 @@ Tu misión en esta tarea es crear una herramienta de automatización en Bash (un
  
 1. Haz una primera versión del bash script (limpiador.sh) que simplemente ordene los archivos de la propia carpeta donde se ejecuta el script.
 
-*.jpg, *.png, *.gif --> IMGS/
+- *.jpg, *.png, *.gif --> IMGS/
 
-*.docx, *.odt --> DOCS/
+- *.docx, *.odt --> DOCS/
 
-*.txt --> TXTS/
+- *.txt --> TXTS/
 
-*.pdf --> PDFS/
+- *.pdf --> PDFS/
 
- Archivos vacíos (0 bytes)  --> VACIOS/
+ - Archivos vacíos (0 bytes)  --> VACIOS/
  
 2. Mejora errores e incluye que ahora le puedas pasar por parámetro el directorio de destino a ordenar. (ej: ./kaos.sh ~/Downloads).
    
