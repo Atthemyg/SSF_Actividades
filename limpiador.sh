@@ -1,5 +1,23 @@
 #!/usr/bin/bash
 
+#VERIFICAR SI SE PASÓ UN DIRECTORIO COMO PARÁMETRO
+if [ -z "$1" ]; then
+    echo "Uso: $0 <directorio>"
+    exit 1
+fi
+
+#GUARDAR EL DIRECTORIO DESTINO
+DIR="$1"
+
+#VERIFICAR QUE EL DIRECTORIO EXISTE
+if [ ! -d "$DIR" ]; then
+    echo "El directorio no existe"
+    exit 1
+fi
+
+#ENTRAR AL DIRECTORIO
+cd "$DIR" || exit
+
 #CREAR CARPETAS
 mkdir IMGS
 mkdir DOCS
@@ -7,7 +25,7 @@ mkdir TXTS
 mkdir PDFS
 mkdir VACIOS
 
-#CONTADORES
+#CREAR CONTADORES
 img_count=0
 doc_count=0
 txt_count=0
