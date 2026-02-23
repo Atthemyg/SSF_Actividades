@@ -80,7 +80,7 @@ done
 #CONTAR CARPETAS VACÍAS
 for dir in */; do
     if [ -d "$dir" ] && [ -z "$(ls -A "$dir")" ]; then
-        ((empty_dir_count++))
+        ((dirvacio_count++))
     fi
 done
 
@@ -90,4 +90,23 @@ echo "Se han movido $doc_count documentos"
 echo "Se han movido $txt_count archivos de texto"
 echo "Se han movido $pdf_count PDFs"
 echo "Se encontraron $vacio_count archivos vacíos"
-echo "Se encontraron $empty_dir_count carpetas vacías"
+echo "Se encontraron $dirvacio_count carpetas vacías"
+
+
+if [ "$vacio_count" -gt 0 ] || [ "$dirvacio_count" -gt 0 ]; then
+    echo -n "¿Deseas eliminar los elementos vacíos? (s/n): "
+    read opcion
+
+    if [[ "$opcion" == "s" || "$opcion" == "S" ]]; then
+        
+        #ELIMINAR ARCHIVOS VACÍOS
+        find . -type f -empty -delete
+        
+        #ELIMINAR CARPETAS VACÍAS
+        find . -type d -empty -delete
+        
+        echo "Elementos vacíos eliminados."
+    else
+        echo "No se eliminaron los elementos vacíos."
+    fi
+fi
