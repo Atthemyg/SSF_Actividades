@@ -85,7 +85,9 @@ for dir in */; do
     fi
 done
 
+echo
 echo "Limpieza completada"
+echo
 echo "Se han movido $img_count imágenes"
 echo "Se han movido $doc_count documentos"
 echo "Se han movido $txt_count archivos de texto"
@@ -95,7 +97,7 @@ echo "Se encontraron $dirvacio_count carpetas vacías"
 
 
 if [[ "$vacio_count" -gt 0 ]] || [[ "$dirvacio_count" -gt 0 ]]; then
-
+    echo
     echo "Archivos vacíos:"
     find . -type f -empty
 
