@@ -18,7 +18,7 @@ for (( i=1; i<=ALTURA; i++ ))
 do
   for (( j=1; j<=i; j++ ))
   do
-    echo -n "#"
+    echo -n "*"
   done
   echo
 done
