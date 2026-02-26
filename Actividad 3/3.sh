@@ -10,11 +10,11 @@ IMC=$(( PESO / (ALTURA_CM * ALTURA_CM) ))
 
 echo "IMC: $IMC"
 
-if (( $IMC < 18 )); then
+if (( IMC < 18 )); then
   echo "Bajo peso"
-elif (( $IMC > 18 && $IMC < 25 )); then
+elif (( IMC > 18 && IMC < 25 )); then
   echo "Peso normal"
-elif (( $IMC > 25 && $IMC < 30 )); then
+elif (( IMC > 25 && IMC < 30 )); then
   echo "Sobrepeso"
 else
   echo "Obesidad"
