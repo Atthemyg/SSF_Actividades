@@ -1,6 +1,6 @@
 # Bash Script
 
-## limpiador.sh
+### limpiador.sh
 
 ¿Alguna vez has mirado tu carpeta de Descargas o tu Escritorio y has sentido que el caos ha ganado la batalla? Archivos sueltos, PDFs mezclados con imágenes y carpetas vacías que no sirven para nada.
 
