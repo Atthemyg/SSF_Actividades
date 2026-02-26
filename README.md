@@ -51,7 +51,5 @@ ________________________________________________________________________________
 6. Haga un script que le solicite por pantalla base y altura (2 números) y que le calcule el área de un rectángulo y se lo dibuje en pantalla usando asteriscos * o usando almohadillas # o de la forma que usted prefiera obviamente en formato ASCII.
  
 ####################
-####################
-####################
  
 7. Haga un script similar al anterior, pero para un triángulo.
