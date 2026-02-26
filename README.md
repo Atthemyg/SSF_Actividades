@@ -1,4 +1,4 @@
-# limpiador.sh
+## limpiador.sh
 
 ¿Alguna vez has mirado tu carpeta de Descargas o tu Escritorio y has sentido que el caos ha ganado la batalla? Archivos sueltos, PDFs mezclados con imágenes y carpetas vacías que no sirven para nada.
 
@@ -24,25 +24,25 @@ limpiador.sh es un script de Bash que actúa como un "agente del caos o limpiado
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-# ACTIVIDAD 3
+## ACTIVIDAD 3
 
-## 1.sh
+### 1.sh
 
 Calcula el número de segundos totales y recibe por parámetros DIA, HORAS y SEGUNDOS.  Ejemplo: ./segundos.sh 4 2 200 -> Debería calcular los segundos que hay en 4 días 2h y 200s.
 
- ## 2.sh
+### 2.sh
  
 Hace automáticamente git add, git commit y git push. Con el mensaje que le pases. Ejemplo: ./commit.sh mensaje
 
-## 3.sh
+### 3.sh
  
 Calcula el índice IMC de una persona indicando según los valores que dicta la OMS o algún otro organismo de confianza si la persona tiene bajo peso, peso normal, sobrepeso u obesidad. Recibe por parámetros la altura en cm y el peso en kg. Ejemplo:  ./calculaimc.sh  182 72  à equivaldría a 182cm y 72Kg.
 
- ## 4.sh
+### 4.sh
  
 Pide una contraseña y vuelva a pedir confirmación de la misma antes de comprobar si son iguales o no. Si son iguales termina el programa con OK; si son diferentes devuelve ERROR y se reinicia.
 
-## 5.sh
+### 5.sh
 
 Muestra en pantalla el siguiente menú y ejecute el comando correcto para ver lo que pide el usuario:
 
@@ -52,10 +52,10 @@ Muestra en pantalla el siguiente menú y ejecute el comando correcto para ver lo
    4 Números de usuarios en la máquina (/etc/passwd)
    5 Espacio usado en tu carpeta
  
-## 6.sh
+### 6.sh
 
 Solicita por pantalla base y altura (2 números) para calcular el área de un rectángulo, y lo dibuja en pantalla usando almohadillas # en formato ASCII.
 
-## 7.sh
+### 7.sh
 
 Hace un script similar al anterior pero para un triángulo.
