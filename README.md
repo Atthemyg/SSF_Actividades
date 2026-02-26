@@ -56,8 +56,8 @@ Muestra en pantalla el siguiente menú y ejecute el comando correcto para ver lo
  
 ### rectangulo.sh
 
-Solicita por pantalla base y altura (2 números) para calcular el área de un rectángulo, y lo dibuja en pantalla usando almohadillas # en formato ASCII.
+Solicita por pantalla base y altura (2 números) para calcular el área de un rectángulo, y lo dibuja en pantalla usando # en formato ASCII.
 
 ### triangulo.sh
 
-Hace un script similar al anterior pero para un triángulo.
+Hace un script similar al anterior pero con * para un triángulo.
