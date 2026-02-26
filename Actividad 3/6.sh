@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+
+#CONTROL DE ERRORES
+set -euo pipefail
+
+echo -n "Base: "
+read BASE
+echo
+
+echo -n "Altura: "
+read ALTURA
+echo
+
+AREA=$(( BASE * ALTURA ))
+
+echo "Área: $AREA"
+echo
+
+for (( i=1; i<=ALTURA; i++ ))
+do
+  for (( j=1; j<=BASE; j++ ))
+  do
+    echo -n "#"
+  done
+  echo
+done
