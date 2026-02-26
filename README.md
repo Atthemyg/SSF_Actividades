@@ -49,9 +49,13 @@ Pide una contraseña y vuelva a pedir confirmación de la misma antes de comprob
 Muestra en pantalla el siguiente menú y ejecute el comando correcto para ver lo que pide el usuario:
 
    1 Espacio libre en disco (%)
+   <br>
    2 Espacio libre (tamaño)
+   <br>
    3 Usuario actual y nombre de la máquina
+   <br>
    4 Números de usuarios en la máquina (/etc/passwd)
+   <br>
    5 Espacio usado en tu carpeta
  
 ### 6.sh
