@@ -30,7 +30,7 @@ ________________________________________________________________________________
 
 ### 1.sh
 
-Calcula el número de segundos totales y recibe por parámetros DIA, HORAS y SEGUNDOS.  Ejemplo: ./segundos.sh 4 2 200 -> Debería calcular los segundos que hay en 4 días 2h y 200s.
+Calcula el número de segundos totales y recibe por parámetros DIA, HORAS y SEGUNDOS.  Ejemplo: ./segundos.sh 4 2 200  ->  Debería calcular los segundos que hay en 4 días 2h y 200s.
 
 ### 2.sh
  
@@ -38,7 +38,7 @@ Hace automáticamente git add, git commit y git push. Con el mensaje que le pase
 
 ### 3.sh
  
-Calcula el índice IMC de una persona indicando según los valores que dicta la OMS o algún otro organismo de confianza si la persona tiene bajo peso, peso normal, sobrepeso u obesidad. Recibe por parámetros la altura en cm y el peso en kg. Ejemplo:  ./calculaimc.sh  182 72  à equivaldría a 182cm y 72Kg.
+Calcula el índice IMC de una persona indicando según los valores que dicta la OMS o algún otro organismo de confianza si la persona tiene bajo peso, peso normal, sobrepeso u obesidad. Recibe por parámetros la altura en cm y el peso en kg. Ejemplo:  ./calculaimc.sh  182 72  ->  equivaldría a 182cm y 72Kg.
 
 ### 4.sh
  
